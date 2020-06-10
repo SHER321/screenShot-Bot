@@ -15,51 +15,16 @@ async def start(c, m):
         )
     
     await m.reply_text(
-        text=f"Hi there {m.from_user.first_name}.\n\nI'm Screenshot Generator Bot. I can provide screenshots from your video files with out downloading the entire file (almost instantly). For more details check /help.",
+        text=f"Hello There! {m.from_user.first_name}.\n\nI'm Screenshot Generator Bot. I can provide screenshots from your video files with out downloading the entire file (almost instantly). For more details HIT /help.",
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Source 😜', url='https://github.com/sahadz/screenShot-Bot'),
-                    InlineKeyboardButton('Project Channel', url='https://t.me/Super_Botz')
+                    InlineKeyboardButton('SOURCE-CODE', url='https://github.com/AID-3N'),
+                    InlineKeyboardButton('SUPPORT GROUP', url='https://t.me/OVERHERE_MATE')
                 ],
                 [
-                    InlineKeyboardButton('My Boss', url='https://t.me/Ankith_m')
+                    InlineKeyboardButton('OWNER', url='https://t.me/AID_3N')
                 ]
             ]
         )
-
-
-
-
-
-
-
-    
-    
-     
-      
-           
-            
-        
-    
-    
-
-        
-   
-            
-               
-                  
-                 
-               
-             
-
-
-            
-        
-                
-                
-                
-       
-        
-   
