@@ -17,9 +17,9 @@ Hi {}. Welcome to Screenshot Generator Bot. You can use me to generate
 
 👉 If the bot dosen't respond to telegram files you forward, first check /start and --confirm bot is alive--. Then make sure the file is a **video file** which satisfies above mentioned conditions. 
 👉 If bot replies __😟 Sorry! I cannot open the file.__, the file might be --currupted-- or --is malformatted--.
-Join @OVERHERE_MATE
+Join @ALL_MOVIES_LIABRARY
 
-__If issues persists contact my father.__"""
+__If issues persists contact my father : @ NGYNY.__"""
 
 
 @ScreenShotBot.on_message(Filters.private & Filters.command("help"))
