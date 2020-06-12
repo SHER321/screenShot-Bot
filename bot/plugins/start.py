@@ -4,7 +4,7 @@ from ..config import Config
 from ..screenshotbot import ScreenShotBot
 
 
-@ScreenShotBot.on_message(Filters.private & Filters.command("start"))
+@ScreenShotNGY_Bot.on_message(Filters.private & Filters.command("start"))
 async def start(c, m):
     
     if not await c.db.is_user_exist(m.chat.id):
@@ -20,11 +20,11 @@ async def start(c, m):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Source 😜', url='https://github.com/sahadz/screenShot-Bot'),
-                    InlineKeyboardButton('Project Channel', url='https://t.me/Super_Botz')
+                    InlineKeyboardButton('Group', url='https://t.me/MOVIERG_NY'),
+                    InlineKeyboardButton('Channel', url='https://t.me/ALL_MOVIES_LIABRARY')
                 ],
                 [
-                    InlineKeyboardButton('My Boss', url='https://t.me/Ankith_m')
+                    InlineKeyboardButton('My Boss', url='https://t.me/NGYNY')
                 ]
             ]
         )
